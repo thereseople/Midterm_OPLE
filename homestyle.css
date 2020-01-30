@@ -1,0 +1,117 @@
+.image{
+    background-image: url("images/image10.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+}
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    image {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(images/background-photo-mobile-devices.jpg);
+    }
+      }
+      
+    
+        a{
+            color:black;
+           float:left;
+            margin-left:0;
+            position: relative;
+        }
+          h2{
+          
+            width: 140px;
+            height: 84px;
+            left: 13px;
+            top: calc(50% - 84px/2 - 19px);
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            display: flex;
+            align-items: center;
+          }
+          h4{
+            
+            width: 72px;
+            height: 18px;
+            left: 13px;
+            top: calc(50% - 18px/2 - 69.5px);
+            position: relative;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+            
+          }
+          h3{
+            width: 253px;
+            position: relative;
+height: 36px;
+left: 13px;
+top: calc(50% - 36px/2 + 40.5px);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #FF473A;
+
+          }
+          button[type=plan]{
+            width: 100%;
+            background-color: red;
+            color: white;
+            padding: 14px 20px;
+            border:none;
+            border-radius: 4px;
+            cursor:pointer;
+            font-family: ribeye;
+            font-size: 17px;
+            margin-left:60px;
+          }
+          .s{
+            background-color:transparent;
+            border:0;
+            text-decoration:none;
+            color:red;
+            padding: 12px 16px;
+            font-size: 12px;
+            margin-left:20px;
+            margin-top: 70px;
+            border-radius: 12px;
+            cursor: pointer;
+          }
+          .s:hover{
+           opacity: 0.4;
+          }
+         
+          .x{
+            background-color:transparent;
+            border:0;
+            text-decoration:none;
+            color:red;
+            padding: 12px 16px;
+            font-size: 12px;
+            margin-right: 20px ;
+            border-radius: 12px;
+            cursor: pointer;
+            
+          }
+          .x:hover{
+           opacity: 0.4;
+          }
+      
+    }

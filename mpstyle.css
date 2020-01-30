@@ -1,0 +1,99 @@
+
+
+.image{
+    background-image: url("images/museum.jpg");
+    height: 667px;
+    background-attachment: fixed;
+    background-size:cover;
+    overflow-y: hidden;
+  
+}
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    image {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(images/background-photo-mobile-devices.jpg);
+    }
+      }
+      
+    
+    
+h1{
+    font-family:  'Lucida Sans Regular';
+    color: white;
+    position: relative;
+    margin-top: 200px;
+    margin-left:30px;
+    
+}
+h6{
+    font-family:  sans-serif;
+    color: white;
+    position: relative;
+    margin-left:30px;
+}
+
+
+
+    
+input[type=text] {
+    width:87%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left:15px;
+    
+}
+button[type=submit]{
+    width: 87%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: ribeye;
+    font-size: 17px;
+    margin-left:15px;
+    
+
+}
+button[type=submit]:hover{
+    opacity: 0.4;
+    
+}
+button[type=forgotPW]{
+    width: 50%;
+    background-color:transparent;
+    color:white;
+    padding: 0px 0px;
+    border:none;
+    border-radius: 0px;
+    cursor:pointer;
+    float:right;
+    
+}
+button[type=forgotPW]:hover{
+    opacity: 0.8;
+    
+}
+button[type=Createaccount]{
+    width: 50%;
+    background-color:transparent;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-left: 2px;
+}
+button[type=CA]:hover{
+     opacity: 0.8;
+}
+
+        
+
+  
+ 
